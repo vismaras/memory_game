@@ -53,7 +53,7 @@ h1 {
 
 .card {
     height: 80px;
-    background-color: #2196F3;
+    background-color: #57d1f7;
     border-radius: 5px;
     cursor: pointer;
     display: flex;
@@ -66,13 +66,13 @@ h1 {
 
 .card.flipped {
     transform: rotateY(180deg);
-    background-color: white;
+    background-color: rgb(209, 37, 37);
     font-size: 2rem;
     font-weight: bold;
 }
 
 .card.matched {
-    background-color: #4CAF50;
+    background-color: #f55095;
     cursor: default;
 }
 
@@ -80,7 +80,7 @@ h1 {
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #acf329;
     color: white;
     border: none;
     border-radius: 5px;
@@ -90,7 +90,7 @@ h1 {
 }
 
 .restart-btn:hover {
-    background-color: #450ddd;
+    background-color: #4113c0;
 }
 
 @media (max-width: 480px) {
